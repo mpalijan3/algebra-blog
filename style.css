@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
+* {
+    margin: 0;
+}
+
 .color-text {
     color: #1a1a1a;
 }
@@ -46,5 +50,50 @@
     font-size: 12px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+header {
+    margin-top: 54px;
+    margin-bottom: 81px;
+}
+
+header .h1 {
+    margin-bottom: 14px;
+}
+
+article .h2 {
+    margin-bottom: 16px;
+}
+
+article {
+    margin-top: 81px;
+}
+
+article .metadata {
+    margin-bottom: 16px;
+}
+
+article .body {
+    margin-bottom: 16px;
+}
+
+article a {
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 81px;
+    margin-bottom: 54px;
+    text-align: center;
 }
 
